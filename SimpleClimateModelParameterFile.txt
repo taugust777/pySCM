@@ -1,0 +1,10 @@
+Start year=2026
+End year=2090
+File of emissions data=EmissionsForSCM.txt
+Years to evaluate response functions=125
+Ocean mixed layer depth [in meters]=200
+Filename for temperature change=temp_output.txt
+Filename for sea level change=slr_output.txt
+Write CO2 concentrations to file=co2_output.txt
+Write CH4 concentrations to file=ch4_output.txt
+Write N20 concentrations to file=n2o_output.txt
