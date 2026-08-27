@@ -39,7 +39,7 @@ This repository contains the following two scripts that have been created to run
 
 1. GHG.py
    - IMPORTANT NOTE: This file operates under the assumption that the pySCM code has been modified to update the greenhouse gas                base values. In pySCM, the greenhouse gas base values are set to the pre-industrial level. This script assumes the user has changed       the greenhouse gas base values in the model code itself to modern-day (2025) values.
-   - This script allows the user to pick an annual growth rate for each GHG, which then compounds from the base for the given number of        years.
+   - This script allows the user to pick an annual growth rate for each GHG (DEFAULTS: CO2 = 0.25%, CH4 = 0.05%, N2O = 0.02%), which then      compounds from the base for the given number of years.
    - The script also writes the resulting concentrations directly to the "EmissionsForSCM.txt" file.
 
 2. pySCM_demo.py
@@ -51,6 +51,18 @@ This repository contains the following two scripts that have been created to run
 ### Concentration Example
 
 This example uses a start year of 2026, an end year of 2090, a time to evaluate response functions of 125, and an ocean mixed layer depth of 100 meters. The parameters changed here include the annual growth rate parameter for CO2, CH4, and N2O. SOx is taken to be zero for this simulation. 
+
+![Concentration Sweeps](images/Concentration_Sweeps.png)
+
+It is seen that higher annual growth rates of these greenhouse gases correlate with higher temperature output and higher slr output. This aligns with what is expected should the rates of greenhouse gases continue to increase.
+
+### Ocean Mixed Layer Example
+
+This example simulates the effect that the ocean mixed layer has on the temperature output and the slr output. The ocean mixed layer depth is the thickness of the top layer of the ocean. This experiment keeps all parameters constant and varies only the ocean mixed layer depth to understand its impact on climate and energy balance. This simulation uses a start year of 2026, an end year of 2090, and a years to evaluate response function of 125. The annual growth rate parameters are set to the default value, that is:
+
+- CO2 = 0.25%
+- CH4 = 0.05%
+- N2O = 0.02%
 
 
 
