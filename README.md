@@ -46,5 +46,24 @@ This repository contains the following two scripts that have been created to run
    - This script contains code that actually runs pySCM.
    - The script saves the output data and also plots the temperature vs. years and Sea Level Rise vs. years.
 
+## Output Example
+
+### Concentration Example
+
+This example uses a start year of 2026, an end year of 2090, a time to evaluate response functions of 125, and an ocean mixed layer depth of 100 meters. The parameters changed here include the annual growth rate parameter for CO2, CH4, and N2O. SOx is taken to be zero for this simulation. 
+
+
+
+## Packages
+
+The packages needed to utilize the code in this repository are:
+
+1. numpy
+2. matplotlib
+3. pandas
+4. pySCM environment (use the call: from pySCM import SimpleClimateModel)
+
+## Use
+
 
    
