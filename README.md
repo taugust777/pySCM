@@ -43,5 +43,8 @@ This repository contains the following two scripts that have been created to run
    - The script also writes the resulting concentrations directly to the "EmissionsForSCM.txt" file.
 
 2. pySCM_demo.py
-   - 
+   - This script contains code that actually runs pySCM.
+   - The script saves the output data and also plots the temperature vs. years and Sea Level Rise vs. years.
+
+
    
