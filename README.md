@@ -58,13 +58,15 @@ It is seen that higher annual growth rates of these greenhouse gases correlate w
 
 ### Ocean Mixed Layer Example
 
-This example simulates the effect that the ocean mixed layer has on the temperature output and the slr output. The ocean mixed layer depth is the thickness of the top layer of the ocean. This experiment keeps all parameters constant and varies only the ocean mixed layer depth to understand its impact on climate and energy balance. This simulation uses a start year of 2026, an end year of 2090, and a years to evaluate response function of 125. The annual growth rate parameters are set to the default value, that is:
+This example simulates the effect that the ocean mixed layer has on the temperature output and the slr output. The ocean mixed layer depth is the thickness of the top layer of the ocean. This experiment keeps all parameters constant and varies only the ocean mixed layer depth to understand its impact on climate and energy balance. This simulation uses a start year of 2026, an end year of 2090, and a years to evaluate response function of 125. The ocean mixed layer depth is varied: 25m -> 50m -> 100m -> 200m. The annual growth rate parameters are set to the default value, that is:
 
 - CO2 = 0.25%
 - CH4 = 0.05%
 - N2O = 0.02%
 
+![Ocean Mixed Layer Depth Sweeps](images/OML_Sweeps.png)
 
+Higher ocean mixed layer depths show lower temperature and slr output values. This is likely due to the fact that a larger ocean layer depth absorbs more heat and thus keeps the atmopsheric temperature lower.
 
 ## Further Ideas
 
