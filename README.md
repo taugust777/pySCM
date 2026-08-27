@@ -54,6 +54,12 @@ This example uses a start year of 2026, an end year of 2090, a time to evaluate 
 
 
 
+## Further Ideas
+
+1. Include SOx concentrations in the model simulations to examine the cooling rate effect.
+2. Create an annual growth rate that flatlines by the year 2040, simulating net-zero carbon effects, and evaluate how that changes the temperature and slr output.
+3. Compare output in this model to other standardized simple climate models, such as MAGICC or FaIR
+
 ## Packages
 
 The packages needed to utilize the code in this repository are:
@@ -65,5 +71,5 @@ The packages needed to utilize the code in this repository are:
 
 ## Use
 
-
+The code here is free and available to download, use, and can be modified any way. I do ask for an appropriate acknowledgement should it be used in any kind of project, publication, teaching material, etc.
    
