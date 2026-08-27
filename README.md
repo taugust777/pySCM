@@ -20,7 +20,7 @@ For full information on pySCM, see the documentation listed above. The model req
    - An example of this file can be seen listed under the file named "SimpleClimateModelParameterFile.txt".
    
 2. EmissionsForSCM.txt
-   - This file contains the concentrations of the following greenhouse gases: CO2, CH4, N2O, and SOx for the chosen number of years            specified in the "SimpleClimateModelParameterFile.txt" file.
+   - This file contains the emissions of the following greenhouse gases: CO2, CH4, N2O, and SOx for the chosen number of years                 specified in the "SimpleClimateModelParameterFile.txt" file.
    - An example of this file can be seen listed under the file named "EmissionsForSCM.txt".
   
 The model returns the following 5 output files:
