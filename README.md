@@ -29,7 +29,7 @@ The model returns the following 5 output files:
 2. slr_output.txt
 3. co2_output.txt
 4. ch4_output.txt
-5. n20_output.txt
+5. n2o_output.txt
 
 Each file contains the raw results from the model run.
 
@@ -58,7 +58,7 @@ It is seen that higher annual growth rates of these greenhouse gases correlate w
 
 ### Ocean Mixed Layer Example
 
-This example simulates the effect that the ocean mixed layer has on the temperature output and the slr output. The ocean mixed layer depth is the thickness of the top layer of the ocean. This experiment keeps all parameters constant and varies only the ocean mixed layer depth to understand its impact on climate and energy balance. This simulation uses a start year of 2026, an end year of 2090, and a years to evaluate response function of 125. The ocean mixed layer depth is varied: 25m -> 50m -> 100m -> 200m. The annual growth rate parameters are set to the default value, that is:
+This example simulates the effect that the ocean mixed layer has on the temperature output and the slr output. The ocean mixed layer depth is the thickness of the top layer of the ocean. This experiment keeps all parameters constant and varies only the ocean mixed layer depth to understand its impact on climate and energy balance. This simulation uses a start year of 2026, an end year of 2090, and a response function of 125 years. The ocean mixed layer depth is varied: 25m -> 50m -> 100m -> 200m. The annual growth rate parameters are set to the default values, that is:
 
 - CO2 = 0.25%
 - CH4 = 0.05%
@@ -66,12 +66,12 @@ This example simulates the effect that the ocean mixed layer has on the temperat
 
 ![Ocean Mixed Layer Depth Sweeps](images/OML_Sweeps.png)
 
-Higher ocean mixed layer depths show lower temperature and slr output values. This is likely due to the fact that a larger ocean layer depth absorbs more heat and thus keeps the atmopsheric temperature lower.
+Higher ocean mixed layer depths show lower temperature and slr output values. This is likely due to the fact that a larger ocean layer depth absorbs more heat and thus keeps the atmospheric temperature lower.
 
 ## Further Ideas
 
 1. Include SOx concentrations in the model simulations to examine the cooling rate effect.
-2. Create an annual growth rate that flatlines by the year 2040, simulating net-zero carbon effects, and evaluate how that changes the temperature and slr output.
+2. Create an annual growth rate for the greenhouse gases that decreases and reaches zero by a certain year and evaluate how that changes the temperature and slr output.
 3. Compare output in this model to other standardized simple climate models, such as MAGICC or FaIR
 
 ## Packages
