@@ -11,7 +11,7 @@ start = 2026
 end = 2090
 years = list(range(start, end + 1))
 
-co2_val_2025 = 38.1
+co2_val_2025 = 38.1 #Pg CO2
 
 #Base 2025 values -> SOx is not included here but can be
 co2_val = co2_val_2025 / (44.01 / 12.011)     #PgC
