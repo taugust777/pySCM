@@ -1,12 +1,6 @@
 #Tim August
 #12 / 4 / 25
 
-
-#In SimpleClimateModelParameters:
-    #CO2 is in ppm
-    #CH4 is in ppb
-    #N2O is in ppb
-
 import sys
 sys.path.append("Filepath for pySCM env") #Insert the filepath for the pySCM environment
 
