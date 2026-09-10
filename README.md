@@ -83,7 +83,5 @@ The packages needed to utilize the code in this repository are:
 3. pandas
 4. pySCM environment (use the call: from pySCM import SimpleClimateModel)
 
-## Use
 
-The code here is free and available to download, use, and can be modified any way. I do ask for an appropriate acknowledgement should it be used in any kind of project, publication, teaching material, etc.
    
